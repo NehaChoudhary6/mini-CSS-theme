@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav-container{
+    width:100%;
+    height:12vh;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+}
+.logo{
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    width:30%;
+    padding:22px 35px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing:5px;
+    color:rgb(153, 154, 154);
+}
+.nav-links{
+    width:70%;
+    display:flex;
+    justify-content: flex-end;
+}
+.links{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link{
+    
+    padding:15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing:5px;
+    list-style-type: none;
+}
+.linkD{
+    text-decoration: none;
+    color:rgb(153, 154, 154);
+}
+.link3{
+    padding-right:40px;
+}
+.link>.linkD:hover,.link>.linkD:active{color:rgb(62, 187, 122)}
+.container-1{
+    width:100%;
+    /* height:100vh; */
+    background-color: rgb(23, 188, 150);
+    flex-wrap: wrap;
+}   
+.sent-1{
+    font: 25px Montserrat, sans-serif;
+    padding:40px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}  
+.circle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bird1{border-radius: 50%;}
+.sent-2{
+    font: 25px Montserrat, sans-serif;
+    padding:40px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.container-2{
+    width:100%;
+    /* height:50vh; */
+    background-color: rgb(71, 75, 92);
+    flex-wrap: wrap;
+}
+.sent-3{
+    font: 25px Montserrat, sans-serif;
+    padding-top:80px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.sent-4{
+    font: 15px Montserrat, sans-serif;
+    padding-top:40px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.h6-{
+    font: 15px Montserrat, sans-serif;
+    padding-top:6px;
+    padding-left:40px;
+    padding-right:40px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.btn-search{
+    width:9%;
+    height:8vh;
+    background-color: white;
+    border:none;
+    border-radius:5px;
+}
+.h6--{
+    font: 14px Montserrat, sans-serif;
+    letter-spacing: 1px;
+}
+.btn{
+    padding:14px 0px;
+    display:flex;
+    justify-content: center;
+}
+.btn-search:hover{
+    background-color:rgb(179, 180, 179);
+}
+.container-3{
+    height:20vh;
+    width:100%;
+    background-color:white;
+    flex-wrap: wrap;
+}
+.sent-5{
+    font: 25px Montserrat, sans-serif;
+    padding:50px;
+    color:rgb(91, 90, 90);
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.container-4{
+    width:100%;
+    /* height:70vh; */
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex-item1{
+    height: 70vh;
+    width:30%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+.flex-box1 >h5{
+     font:15px Montserrat, sans-serif;
+     letter-spacing:1px;
+     color:rgb(109, 105, 105)
+}
+.box-sent1{
+   padding-right:9px;
+   padding-left: 15px;
+   padding-top: 10px;
+   padding-bottom: 4px;
+   justify-content: center;
+   align-items: center;
+}
+.box-sent2{
+    padding-right:10px;
+    padding-left: 22px;
+    padding-bottom: 4px;
+}
+.box-sent3{
+    padding-right:15px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+}
+.flex-box2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height:30vh;
+    width:100%;
+    background-color: rgb(68, 68, 70);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap; 
+}
+.footer-sent1{
+    color:white;
+    font:12px Montserrat, sans-serif;
+    letter-spacing:2px;
+}
+.footer-sent2{
+    color:white;
+    font:12px Montserrat, sans-serif;
+    letter-spacing:3px;
+    gap:2px;
+}
+.footer-sent2:hover ,.footer-sent2:active {
+    text-decoration: underline;
+    color:rgb(36, 37, 106);
+}
